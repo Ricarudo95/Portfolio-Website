@@ -76,27 +76,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet pharetra nisl. Vestibulum sollicitudin leo non purus vestibulum placerat. Curabitur ac erat sollicitudin, blandit quam vitae, rutrum diam. Aenean non gravida velit, eu consectetur neque. Nullam in volutpat massa. Duis scelerisque urna non lectus fringilla suscipit. Phasellus lacinia facilisis massa, pellentesque consectetur nunc. Nullam elit metus, condimentum nec libero quis, dapibus malesuada enim. Morbi semper condimentum pellentesque. </p>
-					<div class="row mt-5">
-						<div class="col-md-4">
-							<div class="milestone">
-								<h2>56<span>Clients</span></h2>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="milestone">
-								<h2>112<span>Projects</span></h2>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="milestone">
-								<h2>25<span>Collabs</span></h2>
-							</div>
-						</div>
-					</div>
-					<figure class="mt-5">
-						<img src="img/sign.png" alt="">
-					</figure>
+					<p>     Music has always been my passion, ever since I was a kid I’ve been pounding at thing just to try to make a beat. I would dance whenever I heard any song. Now as an adult that feeling of joy I get from listening to music is still there. Now as a musician I have always been very auditory, while I can read sheet music I’ve always been kind of slow at it. So here my other passion is coming forth. Using my knowledge from previous investigations I thought, this is something that can be done with neural networks. So, I presented the idea to my teammates in the investigation and its was accepted as the project for the fall of 2018.
+						<br /><br />     The final product we want to reach is a system that can listen to a song and automatically transcribes the song in a music sheet. Now systems that do this already exists but they focus on the notes and not the instruments. So, what you are left is a single piano score that captures all the different instruments into one. We want to go beyond this and work on a system that can separate each individual track of the song. Now to work on this we designed a system of three main parts. The first being a neural network that can detect all the instruments on the song and where said instrument is playing. The seconds is going to focus on separating the individual audio of each instrument and third, transcribe these individual tracks into a music sheet.
+						<br /><br />     For the scope of the Fall 2018 semester our work is focused mainly on the first part of the system. A neural network capable of detecting the instruments used in a song. As with any project, especially one using neural networks, one has to start by analyzing how the data is treated. Audio signals have many difficulties when its comes to analyzing, especially when it comes to harmonies. A musical note is created by the resonance of am object on a specific frequency. As an example, for a guitar it’s the strings that vibrate and for our voice it’s the vocal chords that does the magic. Now in addition to the base frequency we also have harmonies. For each instrument the way these harmonies work is unique. This is a key feature we can use to identify which instrument is which. The underlying issue is that when two different instruments play the same note, the waves can be constructive or destructive. This makes it a difficult task to detect what is what. To counter this we need to understand all properties that can make an instrument unique. There are many different ways to approach the instrument recognition. Some utilize fast Fourier transform to work in the frequency domain and other even use raw audio with a CNN. Now since we have experience with Convolutional Neural Networks (CNN). We decided to start working designing the system as such. Though we understand that this system is not really taking into accord all the different features present in an instruments features it gives a quick and easy way to start working.
+						</p>
+
 				</div>
 				<div class="col-lg-5 offset-lg-1">
 					<figure class="pic-frame">
